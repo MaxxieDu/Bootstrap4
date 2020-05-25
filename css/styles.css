@@ -52,3 +52,20 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+
+.modal-body {
+  background-color: #9575CD; }
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: floralwhite;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1; }

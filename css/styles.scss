@@ -73,3 +73,24 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-header {
+    background-color: $background-dark;
+    color:floralwhite;
+
+}
+
+.modal-body{
+    background-color: $background-light;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color:  floralwhite; 
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20); 
+    opacity: 1;
+  }
